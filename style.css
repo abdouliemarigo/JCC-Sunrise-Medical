@@ -1,0 +1,290 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+
+}
+html{ 
+    scroll-behavior: smooth;
+}
+
+.emergency-bar{ 
+    background-color: #F59E0B;
+    color: #000;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#home{ 
+    min-height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-image:  linear-gradient(#16731681,#1673168a) , url(images/medical-hero.jpg);
+   
+    
+    
+}
+
+
+body  {
+    font-family: Georgia,serif;
+}
+
+.container {
+    max-width: 1000px;
+    padding: 0 20px;
+    margin: 0 auto;
+
+}
+
+nav{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    line-height: 1.6;
+    color: #20C997 ;
+    background-color:   #042d0e;
+    
+}
+.logo{ 
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.nav-links{ 
+display: flex;
+list-style: none;
+gap: 25px;
+
+}
+.nav-links a{ 
+    color: #FFFFFF;
+}
+.nav-links a:hover{ 
+    text-decoration: underline;
+    color: #08589f;
+}
+ .hero{ 
+ text-align: center; 
+    padding: 60px 20px;
+
+
+} 
+.hero h1{ 
+    font-size: 32px;
+    
+    margin-bottom: 15px;
+    color: white;
+}
+.hero p{ 
+    max-width: 600px;
+    margin: 0 auto 25px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.btn{ 
+    
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #26a526;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333333;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    
+}
+.btn:hover{ 
+    background-color: #1bee4cbe; 
+}
+
+
+.healthcare{ 
+    background-color:  #CCFBF1;
+    border-radius: 10px;
+    margin-bottom: 25px;
+} 
+
+.services h2{ 
+    
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #1f4f4f;
+}
+
+
+h3{ 
+    font-size: 22px;
+    font-weight: bold;
+    color: #1f4f4f;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+.healthcare p{ 
+    color: black;
+    line-height: 1.6;
+    padding: 0 10px 20px;
+    font-size: 16px;
+}
+
+ img{ 
+    border-radius: 22px;
+    width: 300px;
+    height: 250px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+ }
+
+.list li{ 
+ padding: 20px;
+    background-color: #CCFBF1;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    list-style: none;
+    border-left: 5px solid  #0D9488;
+}
+
+/* Underline */
+
+h2.line{ 
+    
+    margin-top: 0;
+    padding-bottom: 5px;
+    border-bottom: 4px solid #0D9488;  
+    border-radius: 2px; 
+}
+
+/* About Us */
+
+img.office{ 
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+img.doctor{ 
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.our-facilities h2{ 
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #1f4f4f;
+}
+.our-facilities ul{ 
+    color: #171414;
+    line-height: 1.6;
+    padding:  0 10px 20px;
+    font-size: 16px;
+}
+
+
+
+/* Contact Us */
+
+.about{ 
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #034016ec;
+    color: white;
+}
+
+#book p{ 
+    padding:20px;
+}
+
+h1{ 
+    font-size: 35px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+label{ 
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #333;
+}
+form input,select,textarea{ 
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 18px;
+    border: 2px solid #CCFBF2;
+    border-radius: 4px;
+}
+
+
+
+
+
+button{ 
+    background: #0D9488;
+    color: #FFFFFF;
+    border: none;
+    margin: 12px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form button:hover{ 
+background: #134E4A;
+color: #FFFFFF;
+}
+#contact-info{ 
+    background: #c9f5ee;
+    padding: 30px 20px;
+margin-top: 40px;
+}
+#contact-info h2 h3{ 
+    color: #0f4c4c;
+    margin-bottom: 15px;
+}
+#contact-info p{
+margin-bottom: 10px;
+color: #333;
+ 
+}
+/* Openning Hours */
+.opening-hours{ 
+    margin-top: 20px;
+
+}
+/* .opening-hours ul{ 
+    list-style: none;
+} */
+.opening-hours li{ 
+    margin-bottom: 12px;
+    color: #333;
+}
+
+/* Emegency note */
+.emergency-note{ 
+    margin-top: 20px;
+    font-weight: bold;
+    color: #0f4c4c;
+}
+
+
+
+footer{ 
+    background-color: #0f4c4c;
+    color: #ffffff;
+    text-align: center;
+    margin-top:30px;
+    font-size: 14px;
+    padding: 15px;
+}
+
